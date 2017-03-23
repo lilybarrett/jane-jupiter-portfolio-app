@@ -1,0 +1,65 @@
+.resume-section {
+  border: 1px solid #9933ff;
+  margin-top: 5em;
+}
+
+.resume-title {
+  color: #9933ff;
+}
+
+.project {
+  border: 1px solid #9933ff;
+  margin-top: 5em;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+.button {
+  background-color: #9933ff;
+}
+
+.button:hover {
+  background-color: #6600ff;
+}
+
+.button a {
+  color: white;
+}
+
+.button a:hover {
+  color: white;
+}
+
+.button a:active {
+  color: white;
+}
+
+body, h1 {
+  font-family: 'Space Mono', monospace;
+}
+
+h1 {
+  color: #9933ff;
+}
+
+h1 a {
+  color: #9933ff;
+}
+
+h3 a {
+  color: #9933ff;
+}
+
+.about-div {
+  margin-top: 10px;
+  border: 1px solid #9933ff;
+  padding: 10px;
+  float: none;
+}
+
+.photo-div {
+  border: 1px solid #9933ff;
+  float: none;
+  height: 500px;
+  background-image: url('http://www.worcester.ac.uk/content_images/web-development-university-worcester-course-page-header.jpg');
+}
