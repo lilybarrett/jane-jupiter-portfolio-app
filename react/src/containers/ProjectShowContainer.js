@@ -10,7 +10,7 @@ class ProjectShowContainer extends Component {
   }
 
   componentDidMount() {
-    let projectId = this.props.params.id;
+    let projectId = this.props.id;
     fetch(`/api/v1/projects/${projectId}`)
       .then((response) => response.json())
       .then((responseData) => {

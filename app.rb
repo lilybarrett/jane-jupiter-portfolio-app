@@ -57,7 +57,6 @@ get "/resume" do
 end
 
 get "/api/v1/skills.json" do
-  @skills = load_skills
   content_type :json
   json @skills
 end
@@ -87,7 +86,7 @@ get "/api/v1/projects.json" do
 end
 
 get "/api/v1/projects/:id" do
-  @project = load_project(params[:id].to_i)
+  @project = load_project(params[:project_id].to_i)
   content_type :json
   json @project
 end

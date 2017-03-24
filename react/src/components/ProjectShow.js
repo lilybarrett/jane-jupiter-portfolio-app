@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ProjectShow = ({ id, name, description }) => {
+const ProjectShow = (props) => {
   return(
     <div className="project-show row">
       <div className="small-12 small-centered columns">
